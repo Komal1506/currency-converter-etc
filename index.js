@@ -4,6 +4,8 @@ const freecurrencyapi = new Freecurrencyapi('fca_live_119ryR8MaTKqSgQt68dHukpoJS
 
 convertcurrency('EUR','INR',2);
 
+//this convert currency to currency
+
  export async function convertcurrency(fromcurrency,tocurrency,units)
 {
      const res = await freecurrencyapi.latest({
@@ -11,7 +13,7 @@ convertcurrency('EUR','INR',2);
         currencies:tocurrency
     });
     const multiplier = res.data[tocurrency];
-    // console.log(multiplier*units);
+   
     return multiplier*units;
 
 }
