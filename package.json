@@ -1,0 +1,26 @@
+{
+  "name": "currency-converter-etc",
+  "version": "1.0.0",
+  "description": "npm package to convert currency",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Komal1506/currency-converter-etc.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "komal suryawanshi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Komal1506/currency-converter-etc/issues"
+  },
+  "homepage": "https://github.com/Komal1506/currency-converter-etc#readme",
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  }
+}
